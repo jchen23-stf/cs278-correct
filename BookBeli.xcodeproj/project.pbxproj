@@ -14,6 +14,7 @@
 		C77DA29B2BD1ED05003696E5 /* BookBeliTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77DA29A2BD1ED05003696E5 /* BookBeliTests.swift */; };
 		C77DA2A52BD1ED05003696E5 /* BookBeliUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77DA2A42BD1ED05003696E5 /* BookBeliUITests.swift */; };
 		C77DA2A72BD1ED05003696E5 /* BookBeliUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77DA2A62BD1ED05003696E5 /* BookBeliUITestsLaunchTests.swift */; };
+		C77DA2B62BD1EE3B003696E5 /* AuthentificationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77DA2B52BD1EE3B003696E5 /* AuthentificationViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		C77DA2A02BD1ED05003696E5 /* BookBeliUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookBeliUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C77DA2A42BD1ED05003696E5 /* BookBeliUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookBeliUITests.swift; sourceTree = "<group>"; };
 		C77DA2A62BD1ED05003696E5 /* BookBeliUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookBeliUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C77DA2B52BD1EE3B003696E5 /* AuthentificationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthentificationViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,9 @@
 		C77DA2872BD1ED03003696E5 /* BookBeli */ = {
 			isa = PBXGroup;
 			children = (
+				C77DA2B72BD1EE4C003696E5 /* Models */,
+				C77DA2B42BD1EE2B003696E5 /* ViewModels */,
+				C77DA2B32BD1EE26003696E5 /* Views  */,
 				C77DA2882BD1ED03003696E5 /* BookBeliApp.swift */,
 				C77DA28A2BD1ED03003696E5 /* ContentView.swift */,
 				C77DA28C2BD1ED05003696E5 /* Assets.xcassets */,
@@ -127,6 +132,28 @@
 				C77DA2A62BD1ED05003696E5 /* BookBeliUITestsLaunchTests.swift */,
 			);
 			path = BookBeliUITests;
+			sourceTree = "<group>";
+		};
+		C77DA2B32BD1EE26003696E5 /* Views  */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Views ";
+			sourceTree = "<group>";
+		};
+		C77DA2B42BD1EE2B003696E5 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				C77DA2B52BD1EE3B003696E5 /* AuthentificationViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		C77DA2B72BD1EE4C003696E5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C77DA28B2BD1ED03003696E5 /* ContentView.swift in Sources */,
+				C77DA2B62BD1EE3B003696E5 /* AuthentificationViewModel.swift in Sources */,
 				C77DA2892BD1ED03003696E5 /* BookBeliApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
